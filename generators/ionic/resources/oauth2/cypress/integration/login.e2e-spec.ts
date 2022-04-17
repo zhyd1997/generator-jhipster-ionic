@@ -7,6 +7,7 @@ describe('Login', () => {
 
   beforeEach(() => {
     loginPage = new LoginPage();
+    cy.restoreLocalStorage();
   });
 
   afterEach(() => {
